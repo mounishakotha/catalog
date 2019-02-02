@@ -1,0 +1,28 @@
+<html>
+<head>
+	{% include "index.html" %}
+	
+
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}" >
+
+</head>
+
+<body>
+<h1>{{ cheese.name }}</h1>
+
+<div class="color">
+	{% include "flash.html" %}
+{% for i in item %}
+{{i.name}}
+</br>
+{{i.description}}
+</br>
+{{i.price}}
+</br>
+
+</br>
+
+{% endfor %}
+</div>
+</body>
+</html>

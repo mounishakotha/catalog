@@ -1,0 +1,9 @@
+{% with msg=get_flashed_messages() %}
+{% if msg %}
+<ul>
+	{% for m in msg %}
+	<li><strong>{{ m }}</strong></li>
+	{% endfor %}
+</ul>
+{% endif %}
+{% endwith %}

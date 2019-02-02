@@ -1,0 +1,17 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Cheese World</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}" >
+ <img src='/static/img/cll.png' class="img" align="right">
+</head>
+<body>
+<div >
+  <div id="header"> <a href="{{ url_for('cheesecountry') }}">Cheese World</a> </div>
+  <div id="menu"> 
+    <a href="{{ url_for('cheesecon') }}">Country Details</a>  
+    <a href="{{ url_for('cheesecountry') }}">Country add/delete</a>  
+    <a href="{{ url_for('showlogin') }}">Login</a> </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body  {
+  background-image: url("/static/img/bl.jpg");
+  margin: 0;
+}
+
+.color{
+	color: #DC143C;
+	font-size:27px;
+	padding: 6px 0 6px 40px; 
+}
+.color a{
+	color: #8B0000;
+	font-size: 22px; 
+	padding: 6px 0 6px 40px;
+	padding-left: 50px;
+ }
+
+#header { 
+padding: 45px 0 20px 40px;
+
+} 
+background-image{
+	opacity: 0.5;
+}
+
+
+#header a {
+color: #C71585;
+text-decoration: none;
+font-size: 65px; 
+text-align: center;
+font-family: "Myriad Pro", "Arial Narrow";
+}
+
+#menu { 
+padding: 6px 0 6px 40px;
+}
+
+#menu a {
+color: #4B0082;
+text-decoration: none; 
+font-size: 20px; 
+font-family: "Arial Narrow", "Myriad Pro";
+padding-left: 50px;
+}
+
+#menu a:hover {
+color: #000000;
+
+}
+
+h1 {
+margin: 0px;
+color: #FF1493;
+text-align: center; 
+font-size:40px; 
+font-family: "Arial Narrow", "Myriad Pro"; 
+font-weight: normal;
+}
+
+h2 {
+color: #3b7687;
+font-size: 15px; 
+margin: 20px 0 5px 0;
+}
+h3 a{
+	font-family: "Times New Roman", "Times", "serif";
+	color: #9932CC	;
+
+    
+}
+h4 a{
+	font-family: "Times New Roman", "Times", "serif";
+	color: #6495ED	;
+    text-align: right;
+
+}
+.img{
+	border-radius: 50%;
+	width:100px;
+	height: 100px;
+	margin: 20px 50px 50px 20px;
+
+
+}

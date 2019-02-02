@@ -1,0 +1,22 @@
+<html>
+<head>
+	{% include "main.html" %}
+	
+
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}" >
+
+</head>
+
+<body>
+<form action= "{{url_for('editcheesecon',cheese_id=cheese_id)}}" method = 'POST'>
+<div class="color">
+<p>Name:</p>
+<input type = 'text' size='30' name = 'name' placeholder="{{ch.name}}">
+
+<input type='submit' value='Edit'>
+<a href= "{{url_for('cheesecountry')}}">Cancel</a>
+</div>
+</form>
+
+</body>
+</html>
